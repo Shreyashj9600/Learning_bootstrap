@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header {
+    color: #fff;
+    background-color: #e74c3c;
+}
+
+.section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.section h2.section-head {
+    color: black;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.section h2.section-head:after {
+    background: #e74c3c;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
+
+#menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    font-size: 2rem;
+    padding-top: 5px;
+}
+
+#menu li {
+    display: inline-block;
+}
+
+#menu li a {
+    color: #fff;
+    padding: 15px 10px;
+    display: block;
+}
+
+#menu li a:hover {
+    background: #c0392b;
+
+}
+
+#banner {
+    background: url(https://media.istockphoto.com/id/1494104649/photo/ai-chatbot-artificial-intelligence-digital-concept.webp?b=1&s=170667a&w=0&k=20&c=SVG3LQPHz2JJbsfUil8N9BRxzI9-5S7AR0A1Kha7nng=) no-repeat 0 0;
+    background-size: cover;
+}
+
+.banner-title {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.banner-title h1 {
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+
+.banner-title p.lead {
+    color: #fff;
+    background: rgba(231, 76, 60, 0.7);
+    padding: 10px;
+
+}
+
+.service-box {
+    text-align: center;
+}
+
+.service-box i.fa {
+    color: #e74c3c;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+.testimonials{
+    color: #fff;
+    background: url(https://media.istockphoto.com/id/1204580359/photo/natural-black-slate-stone-background-pattern-with-high-resolution-top-view-copy-space.webp?b=1&s=170667a&w=0&k=20&c=smMfPY8r1Q440SQXF-LcJEn0kT-6ioxjaKRL39dxd4I=) no-repeat 0 0;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+}
+.testimonials:before {
+    background: rgba(52, 73, 94, 0.7);
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.testimonial img{
+    border-radius: 50%;
+}
+.news-post img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.news-post h3 {
+    font-size: 1.35rem;
+}
+.news-post h3 a{
+    color: #e74c3c;
+}
+.post-date {
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+a {
+    color: #e74c3c;
+    font-size: 14px;
+}
+#footer-sidebar {
+    color: #fff;
+    background: #34495e;
+    padding: 20px 0;
+}
+.footer-widget h4:after {
+    content: "";
+    background-color: #fff;
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 5px 0;
+}
+.footer-widget a {
+    color: #fff;
+}
+.latestnews {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.latestnews li {
+    margin-bottom: 3px;
+
+}
+.footer {
+    color: #fff;
+        background: #2c3e50;
+        padding: 10px 0;
+}
+#social-icons {
+    list-style: none;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+#social-icons li {
+    display: inline-block;
+    padding-left: 5px;
+}
